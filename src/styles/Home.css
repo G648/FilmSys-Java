@@ -1,0 +1,26 @@
+.home-container {
+  padding: 40px;
+  border-radius: 10px;
+  width: 80vw;
+  height: 60vh;
+  text-align: center;
+  background-image: url(../assets/vista-superior-quadro-de-pipoca-com-espaco-de-copia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.home-title {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  color: #555;
+}

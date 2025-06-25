@@ -1,0 +1,54 @@
+.table-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.filmes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filmes-table th,
+.filmes-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.filmes-table th {
+  background-color: #333;
+  color: white;
+}
+
+.filmes-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.acoes button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-editar:hover {
+  background-color: #e0a800;
+}
+
+.btn-excluir {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-excluir:hover {
+  background-color: #c82333;
+}
